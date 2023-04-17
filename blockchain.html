@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="options.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cambay&family=Quantico:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- -------------------------------------------------------------------------navbar------------------------------------------------------------------------------------------ -->
+
+  <div id="img">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#" id="logo"><b>Tech</b>Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars" style="color: #89C4E1;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trends.html">Trends</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- ----------------------header----------------------------------------- -->
+
+    <div class="container">
+    <h1 class="text-center">Blockchain</h1>
+   </div>
+
+    </div>
+  </div>
+
+
+  <!-- ---------------------------------------------------------------breadcrumb----------------------------------------------- -->
+
+<div class="container" id="breadcrumb">
+  <div class="row">
+      <div class="col-10">
+      <nav style="--bs-breadcrumb-divider: '>'; color: aliceblue;" aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Blockchain</li>
+          </ol>
+        </nav>
+      </div>
+  </div>
+</div>
+
+
+  <!-- --------------------------------content----------------------------------------------- -->
+
+  
+  <div class="container" id="info">
+    <div class="row justify-content-center">
+        <div class="col-10">
+            <img src="options-images/blockchain.png" class="img-fluid" alt="">
+            <h3>What Is a Blockchain?</h3> 
+            <p>A blockchain is a distributed database or ledger that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format. Blockchains are best known for their crucial role in cryptocurrency systems, such as Bitcoin, for maintaining a secure and decentralized record of transactions. The innovation with a blockchain is that it guarantees the fidelity and security of a record of data and generates trust without the need for a trusted third party.</p>
+            <p>One key difference between a typical database and a blockchain is how the data is structured. A blockchain collects information together in groups, known as blocks, that hold sets of information. Blocks have certain storage capacities and, when filled, are closed and linked to the previously filled block, forming a chain of data known as the blockchain. All new information that follows that freshly added block is compiled into a newly formed block that will then also be added to the chain once filled.</p>
+            <p>A database usually structures its data into tables, whereas a blockchain, as its name implies, structures its data into chunks (blocks) that are strung together. This data structure inherently makes an irreversible timeline of data when implemented in a decentralized nature. When a block is filled, it is set in stone and becomes a part of this timeline. Each block in the chain is given an exact timestamp when it is added to the chain.</p>
+
+            <h3>How Does a Blockchain Work?</h3>
+            <p>The goal of blockchain is to allow digital information to be recorded and distributed, but not edited. In this way, a blockchain is the foundation for immutable ledgers, or records of transactions that cannot be altered, deleted, or destroyed. This is why blockchains are also known as a distributed ledger technology (DLT).</p>
+            <p>First proposed as a research project in 1991, the blockchain concept predated its first widespread application in use: Bitcoin, in 2009. In the years since, the use of blockchains has exploded via the creation of various cryptocurrencies, decentralized finance (DeFi) applications, non-fungible tokens (NFTs), and smart contracts.</p>
+
+            <h3>Is Blockchain Secure?</h3>
+            <p>Blockchain technology achieves decentralized security and trust in several ways. To begin with, new blocks are always stored linearly and chronologically. That is, they are always added to the “end” of the blockchain. After a block has been added to the end of the blockchain, it is extremely difficult to go back and alter the contents of the block unless a majority of the network has reached a consensus to do so. That’s because each block contains its own hash, along with the hash of the block before it, as well as the previously mentioned timestamp. Hash codes are created by a mathematical function that turns digital information into a string of numbers and letters. If that information is edited in any way, then the hash code changes as well.</p>
+            <p>Let’s say that a hacker, who also runs a node on a blockchain network, wants to alter a blockchain and steal cryptocurrency from everyone else. If they were to alter their own single copy, it would no longer align with everyone else’s copy. When everyone else cross-references their copies against each other, they would see this one copy stand out, and that hacker’s version of the chain would be cast away as illegitimate. 
+
+                Succeeding with such a hack would require that the hacker simultaneously control and alter 51% or more of the copies of the blockchain so that their new copy becomes the majority copy and, thus, the agreed-upon chain. Such an attack would also require an immense amount of money and resources, as they would need to redo all of the blocks because they would now have different timestamps and hash codes. </p>
+
+                <p>Due to the size of many cryptocurrency networks and how fast they are growing, the cost to pull off such a feat probably would be insurmountable. This would be not only extremely expensive but also likely fruitless. Doing such a thing would not go unnoticed, as network members would see such drastic alterations to the blockchain. The network members would then hard fork off to a new version of the chain that has not been affected. This would cause the attacked version of the token to plummet in value, making the attack ultimately pointless, as the bad actor has control of a worthless asset. The same would occur if the bad actor were to attack the new fork of Bitcoin. It is built this way so that taking part in the network is far more economically incentivized than attacking it.</p>
+
+            <h3>How Are Blockchains Used?</h3>
+            <p>As we now know, blocks on Bitcoin’s blockchain store data about monetary transactions. Today, there are more than 10,000 other cryptocurrency systems running on blockchain. But it turns out that blockchain is actually a reliable way of storing data about other types of transactions as well. Some companies that have already incorporated blockchain include Walmart, Pfizer, AIG, Siemens, Unilever, and a host of others. For example, IBM has created its Food Trust blockchain to trace the journey that food products take to get to their locations.</p>
+            <p>Why do this? The food industry has seen countless outbreaks of E. coli, salmonella, and listeria, as well as hazardous materials being accidentally introduced to foods. In the past, it has taken weeks to find the source of these outbreaks or the cause of sickness from what people are eating. Using blockchain gives brands the ability to track a food product’s route from its origin, through each stop it makes, and finally, its delivery. If a food is found to be contaminated, then it can be traced all the way back through each stop to its origin. Not only that, but these companies can also now see everything else it may have come in contact with, allowing the identification of the problem to occur far sooner and potentially saving lives. This is one example of blockchain in practice, but there are many other forms of blockchain implementation.</p>
+            <p>Perhaps no industry stands to benefit from integrating blockchain into its business operations more than banking. Financial institutions only operate during business hours, usually five days a week. That means if you try to deposit a check on Friday at 6 p.m., you will likely have to wait until Monday morning to see that money hit your account. Even if you do make your deposit during business hours, the transaction can still take one to three days to verify due to the sheer volume of transactions that banks need to settle. Blockchain, on the other hand, never sleeps.</p>
+            <p>By integrating blockchain into banks, consumers can see their transactions processed in as little as 10 minutes—basically the time it takes to add a block to the blockchain, regardless of holidays or the time of day or week. With blockchain, banks also have the opportunity to exchange funds between institutions more quickly and securely. In the stock trading business, for example, the settlement and clearing process can take up to three days (or longer, if trading internationally), meaning that the money and shares are frozen for that period of time.</p>
+            <p>Blockchain forms the bedrock for cryptocurrencies like Bitcoin. The U.S. dollar is controlled by the Federal Reserve. Under this central authority system, a user’s data and currency are technically at the whim of their bank or government. If a user’s bank is hacked, the client’s private information is at risk. If the client’s bank collapses or the client lives in a country with an unstable government, the value of their currency may be at risk. In 2008, several failing banks were bailed out—partially using taxpayer money. These are the worries out of which Bitcoin was first conceived and developed. Using cryptocurrency wallets for savings accounts or as a means of payment is especially profound for those who have no state identification. Some countries may be war-torn or have governments that lack any real infrastructure to provide identification. Citizens of such countries may not have access to savings or brokerage accounts—and, therefore, no way to safely store wealth.</p>
+            <p>Healthcare providers can leverage blockchain to securely store their patients’ medical records. When a medical record is generated and signed, it can be written into the blockchain, which provides patients with the proof and confidence that the record cannot be changed. These personal health records could be encoded and stored on the blockchain with a private key, so that they are only accessible by certain individuals, thereby ensuring privacy.</p>
+        </div>
+    </div>
+
+  </div>
+
+<!-- -------------------------------------------------------------------------footer------------------------------------------------------------ -->
+
+
+<div class="container-fluid" id="footer-2">
+  <div class="row justify-content-center">
+    <div class="col-sm-10 col-md-5 col-lg-4 mt-4">
+      <h5>Embracing the future with technology <br>
+         Innovation for a better tomorrow</h5>
+         <i class="fa fa-instagram"></i>
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+    </div>
+    <div class="col-sm-10 col-md-2 col-lg-2 mt-4">
+      <h6 class="text-start">Partnership</h6>
+      <ul class="text-start p-0">
+        <li>Websites</li>
+        <li>Social Media</li>
+        <li>Branding</li>
+      </ul>
+    </div>
+    <div class="col-sm-10 col-md-2 col-lg-2 mt-4">
+      <h6 class="text-start">About</h6>
+      <ul class="text-start p-0">
+        <li>Our Projects</li>
+        <li>Careers</li>
+      </ul>
+    </div>
+    <div class="col-sm-10 col-md-2 col-lg-2 mt-4">
+      <h6 class="text-start">Support</h6>
+      <ul class="text-start p-0">
+        <li>Support Request</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container" id="copy">
+     <div class="row" >
+  <p class="text-center">
+ copyright &copy; 2023 All rights reserved | created by Vaishnavi Shelke
+</p>
+     </div>
+</div>
+
+    <!-- -------------------------------------------------------------------------js------------------------------------------------------------------------------------- -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

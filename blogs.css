@@ -1,0 +1,218 @@
+/* background-color :    #120d21;            primary -body  */
+/* background-color: #393053;                secondary      */
+/* color: #89C4E1;                              font color  */
+
+/* font-family: 'Quantico', sans-serif;        primary        */
+/* font-family: 'Cambay', sans-serif;          scondary       */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #120d21;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* -----------------------------------------------------------navbar---------------------------------------------------------------------- */
+
+nav #logo{
+    color: rgba(255, 255, 255, 0.777);
+    font-size: 2.3rem;
+    font-family: 'Quantico', sans-serif; 
+}
+
+nav #logo b{
+    color: #89C4E1;
+}
+
+.navbar-nav li a{
+    color: rgba(255, 255, 255, 0.777);
+    font-size: 1rem;
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-family: 'Cambay', sans-serif;
+}
+
+.navbar-nav li a:hover{
+    color: #89C4E1;
+        transition: ease 0.3s;
+}
+
+.navbar-nav li #active-link{
+    color: #89C4E1;
+    border-bottom: 2px solid #89C4E1;
+    padding-bottom: 0px;
+}
+
+#img{
+    background-image: url(image.jpg);
+    height:350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img h1{
+    color: #89C4E1;
+    font-size: 3.1rem;
+    font-family: 'Quantico', sans-serif; 
+    margin-top: 4rem;
+    
+}
+
+#img p{
+    font-size: 1.1rem;
+    color: #ffffff47;
+    margin-top: 1.rem;
+    font-family: 'Cambay', sans-serif;
+}
+
+
+@media screen and (max-width:992px){
+    #img{
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:767px){
+    #img{
+        height: 340px;
+    }
+}
+
+
+
+/* --------------------------------------------------blogs------------------------------------------------------------------ */
+
+#blogs{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#blogs a{
+    text-decoration: none;
+}
+
+#blogs .card{
+    margin-top: 2rem;
+    background-color: #29223c94;
+    box-shadow: 1px 1px 23px rgba(0, 0, 0, 0.383);
+}
+
+#blogs .card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+
+#blogs .card h5{
+    color: #89C4E1;
+}
+
+#blogs .card .card-text{
+    color: #ffffffcf;
+}
+
+#blogs .card .date{
+    color: rgba(255, 255, 255, 0.235);
+}
+
+
+
+
+/* ---------------------------------------------pagination----------------------------------------------------- */
+
+#pagination{
+    padding-bottom: 2rem;
+    color: #89C4E1;
+    
+}
+
+#pagination .page-link{
+    color: white;
+    background-color: #120d21;
+}
+
+#pagination .active .page-link{
+    background-color: #89C4E1;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    color: #120d21;
+}
+
+
+
+
+
+/* ------------------------------------------------------------------footer---------------------------------- */
+
+/* ------------footer 2---------------- */
+
+#footer-2{
+    background-image: url(image.jpg);
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+#footer-2 h5{
+    color: #89C4E1;
+    font-family: 'Quantico', sans-serif; 
+}
+
+#footer-2 ul{
+    list-style-type: none;
+}
+
+#footer-2 ul li{
+    color: rgba(255, 255, 255, 0.311);;
+}
+#footer-2 ul li:hover{
+    color: rgb(255, 255, 255);;
+    cursor: pointer;
+}
+
+#footer-2 h6{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #89C4E1;
+}
+
+#footer-2 i{
+    color: #89c4e186;
+    font-size: 24px;
+    margin-right: 1.8rem;
+    margin-top: 2.5rem;
+}
+
+#footer-2 i:hover{
+    color: #89c4e1;
+    font-size: 24px;
+    margin-right: 1.8rem;
+    margin-top: 2.5rem;
+}
+
+ #copy div p{
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.72);
+    background-color: #120d21;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:767px){
+    #footer-1 a{
+        margin-top: 0.5rem;
+        width: 5rem;
+        font-size: 0.8rem;
+    }
+
+    #footer-1{
+        top: 5%;
+    }
+}
+

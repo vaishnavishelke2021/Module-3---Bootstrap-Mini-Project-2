@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="bn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cambay&family=Quantico:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- -------------------------------------------------------------------------navbar------------------------------------------------------------------------------------------ -->
+
+  <div id="img">
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#" id="logo"><b>Tech</b>Blog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-bars" style="color: #89C4E1;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" id="active-link" href="blogs.html">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="trends.html">Trends</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+
+
+  <!-- ---------------------------------------------------------------breadcrumb----------------------------------------------- -->
+
+<div class="container" id="breadcrumb">
+    <div class="row">
+        <div class="col-10">
+        <nav style="--bs-breadcrumb-divider: '>'; color: aliceblue;" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="blogs.html">Blog</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Nvidia will bring AI to every industry, says CEO Jensen Huang in GTC keynote</li>
+            </ol>
+          </nav>
+        </div>
+    </div>
+</div>
+
+
+<div class="container" id="detail-blog">
+    <div class="row justify-content-center">
+        <div class="col-10">
+            <img src="data:image/jpeg;base64,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" alt="">
+           <h2>Nvidia will bring AI to every industry, says CEO Jensen Huang in GTC keynote</h2>
+           <p>As Nvidia’s annual GTC conference gets underway, founder and CEO Jensen Huang, in his characteristic leather jacket and standing in front of a vertical green wall at Nvidia headquarters in Santa Clara, California, delivered a highly-anticipated keynote that focused almost entirely on AI. His presentation announced partnerships with Google, Microsoft and Oracle, among others, to bring new AI, simulation and collaboration capabilities to “every industry.”</p>
+           <p>“The warp drive engine is accelerated computing, and the energy source is AI,” Huang said. Generative AI capabilities, he said, have “created a sense of urgency for companies to reimagine their products and business models. Industrial companies are racing to digitalize and reinvent into software-driven tech companies to be the disrupter and not the disrupted.”</p>
+           <p>Huang’s keynote kicked off with the iconic “I am AI” opening (that launched in 2017) with music that this time around was apparently composed by AI, and arranged by composer John Naesano. Then, Huang launched into a dizzying array of announcements. These included everything from training to deployment for cutting-edge AI services; new semiconductors and software libraries; and a complete set of systems and services for startups and enterprises.</p>
+           <p>The announcements at GTC, which targets Nvidia’s community of over four million developers, come in the context of Nvidia’s continued AI dominance, particularly in the latest era of generative AI. As detailed in VentureBeat’s recent in-depth feature story, Nvidia got a massive AI head start when the hardware and software company helped power the deep learning “revolution” of a decade ago, and shows few signs of losing its lead as generative AI explodes with tools like ChatGPT. In fact, Nvidia powers ChatGPT: According to UBS analyst Timothy Arcuri, ChatGPT used 10,000 Nvidia GPUs to train the model.</p>
+           <p>Nvidia’s technologies are fundamental to AI, said Huang, recounting how Nvidia was there at the very beginning of the generative AI revolution. In his keynote, Huang recounted how back in 2016 he hand-delivered to OpenAI the first Nvidia DGX AI supercomputer — the engine behind the large language model powering ChatGPT. Nvidia DGX supercomputers, originally used as AI research instruments, are now running 24/7 at businesses across the world to refine data and process AI, Huang reported. Half of all Fortune 100 companies have installed DGX AI supercomputers. “DGX supercomputers are modern AI factories,” Huang said.</p>
+
+           <h5>Nvidia calls DGX the blueprint for AI infrastructure</h5>
+           <p>The latest version of DGX features eight Nvidia H100 GPUs linked together to work as one giant GPU. “Nvidia DGX H100 is the blueprint for customers building AI infrastructure worldwide,” Huang said, sharing that Nvidia DGX H100 is now in full production. H100 AI supercomputers are already coming online, he added. Oracle Cloud Infrastructure announced the limited availability of new OCI Compute bare-metal GPU instances featuring H100 GPUs. And Amazon Web Services announced its forthcoming EC2 UltraClusters of P5 instances, which can scale in size up to 20,000 interconnected H100 GPUs. This follows Microsoft Azure’s private preview announcement last week for its H100 virtual machine, ND H100 v5.</p>
+           <p>Meta has now deployed its H100-powered “Grand Teton” AI supercomputer internally for its AI production and research teams. And OpenAI will be using H100s on its Azure supercomputer to power its continuing AI research.</p>
+           <h5>Nvidia DGX cloud to bring AI supercomputers ‘to every company’</h5>
+           <p>To speed DGX capabilities to startups and enterprises building new products and developing AI strategies, Huang announced Nvidia DGX Cloud. Through partnerships with Microsoft Azure, Google Cloud and Oracle Cloud Infrastructure, Nvidia DGX Cloud will bring Nvidia DGX AI supercomputers “to every company, from a browser.” DGX Cloud is optimized to run Nvidia AI Enterprise, the world’s leading acceleration software suite for end-to-end development and deployment of AI. Nvidia is partnering with leading cloud service providers to host DGX Cloud infrastructure, starting with Oracle Cloud Infrastructure. Microsoft Azure is expected to begin hosting DGX Cloud next quarter, and the service will soon expand to Google Cloud.</p>
+           <h5>Nvidia invented accelerated computing for AI, including deep learning</h5>
+           <p>Nvidia invented accelerated computing to solve problems that normal computers can’t, said Huang. “It requires full-stack invention from chips, systems, networking, acceleration libraries, to refactoring the applications.” Each optimized stack, he explained, accelerates an application domain — from graphics, imaging and quantum physics to machine learning. “The application can enjoy incredible speed-up as well as scale-up across many computers. This enabled us to achieve a million X for many applications over the past decade,” he said. </p>
+           <p>In 2012, Alex Krizhevsky, Ilya Sutskever and Geoffrey Hinton needed an insanely fast computer to train the AlexNet computer vision model. The researchers trained AlexNet, Huang explained, with 14 million images on GeForce GTX 580 processing and 262 quadrillion floating point operations. The trained model won the ImageNet challenge by a wide margin and, Huang said, “ignited the big bang of AI.” A decade later, the Transformer model was invented and Sutskever, now at OpenAI, trained the GPT-3 large language model to predict the next word. 323 sextillion floating point operations were required to train GPT-3, Huang said — a million times more floating point operations than to train AlexNet. <br> “The result is ChatGPT, the AI heard around the world,” he said.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- -------------------------------------------------------------------------footer------------------------------------------------------------ -->
+
+
+<div class="container-fluid" id="footer-2">
+  <div class="row justify-content-center">
+    <div class="col-sm-10 col-md-5 col-lg-4 mt-4">
+      <h5>Embracing the future with technology <br>
+         Innovation for a better tomorrow</h5>
+         <i class="fa fa-instagram"></i>
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+    </div>
+    <div class="col-sm-10 col-md-2 col-lg-2 mt-4">
+      <h6 class="text-start">Partnership</h6>
+      <ul class="text-start p-0">
+        <li>Websites</li>
+        <li>Social Media</li>
+        <li>Branding</li>
+      </ul>
+    </div>
+    <div class="col-sm-10 col-md-2 col-lg-2 mt-4">
+      <h6 class="text-start">About</h6>
+      <ul class="text-start p-0">
+        <li>Our Projects</li>
+        <li>Careers</li>
+      </ul>
+    </div>
+    <div class="col-sm-10 col-md-2 col-lg-2 mt-4">
+      <h6 class="text-start">Support</h6>
+      <ul class="text-start p-0">
+        <li>Support Request</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container" id="copy">
+     <div class="row" >
+  <p class="text-center">
+ copyright &copy; 2023 All rights reserved | created by Vaishnavi Shelke
+</p>
+     </div>
+</div>
+
+    <!-- -------------------------------------------------------------------------js------------------------------------------------------------------------------------- -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
